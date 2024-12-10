@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 
 class Image02 extends StatelessWidget {
   const Image02({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Menampilkan Gambar'),
+        title: const Text('Menampilkan Gambar'),
       ),
       body: SingleChildScrollView(
         // Agar konten dapat digulir
@@ -17,7 +18,6 @@ class Image02 extends StatelessWidget {
             Image.asset('assets/gambar3.jpg'), // Gambar 3
             Image.asset('assets/gambar4.jpg'), // Gambar 4
             Image.asset('assets/gambar5.jpg'), // Gambar 5
-            Image.asset('assets/gambar6.jpg'), // Gambar 6
           ],
         ),
       ),

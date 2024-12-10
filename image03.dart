@@ -18,7 +18,6 @@ class Image03 extends StatelessWidget {
             buildImageCard('assets/gambar3.jpg', Colors.blue),
             buildImageCard('assets/gambar4.jpg', Colors.yellow),
             buildImageCard('assets/gambar5.jpg', Colors.orange),
-            buildImageCard('assets/gambar6.jpg', Colors.purple),
           ],
         ),
       ),
@@ -34,8 +33,7 @@ class Image03 extends StatelessWidget {
         borderRadius: BorderRadius.circular(10), // Sudut melengkung
       ),
       child: ClipRRect(
-        borderRadius:
-            BorderRadius.circular(10), // Sudut melengkung untuk gambar
+        borderRadius: BorderRadius.circular(10), // Sudut melengkung untuk gambar
         child: Image.asset(
           imagePath,
           fit: BoxFit.cover, // Memastikan gambar penuh di dalam kontainer
